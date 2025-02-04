@@ -27,11 +27,5 @@ stages:
         command: 'publish'
         workingDir: './dist'
         publishRegistry: 'useFeed'
-        publishFeed: '$FEED_DETAILS'
+        publishFeed: '66de3aed-69b5-40f4-84fa-7870032b0e2b/fabc8d6c-c9b8-437c-a9ba-fd6d37effdfc'
 
-    - task: Npm@1
-      inputs:
-        command: 'publish'
-        workingDir: './dist'
-        publishRegistry: 'useFeed'
-        publishFeed: '$FEED_DETAILS'
